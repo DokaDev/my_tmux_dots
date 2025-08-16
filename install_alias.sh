@@ -22,6 +22,4 @@ add_alias "alias tks='tmux kill-session -t'"
 add_alias "alias trs='tmux rename-session -t'"
 
 echo
-echo "🔄 Reloading ~/.zshrc ..."
-# shellcheck disable=SC1090
-source "$ZSHRC"
+echo "⚠️ Please run 'source ~/.zshrc' or restart your terminal to apply the changes."
